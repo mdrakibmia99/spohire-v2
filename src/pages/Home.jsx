@@ -1,6 +1,8 @@
 
+import AIm from "../components/Aim/AIm";
 import Features from "../components/Features/Features";
 import OurWork from "../components/OurWork/OurWork";
+import Question from "../components/Question/Question";
 import Review from "../components/Review/Review";
 import Navbar from "../layout/Navbar";
 import HeroSection from "./HeroSection";
@@ -13,6 +15,8 @@ const Home = () => {
            <Features/>
            <OurWork/>
            <Review/>
+           <AIm/>
+           <Question/>
         </div>
     );
 };

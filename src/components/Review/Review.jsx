@@ -1,11 +1,13 @@
-
-const images=[
-    "/assets/testimonal/airbnb1.png",
-    "/assets/testimonal/amazon2.png",
-    "/assets/testimonal/Creative3.png",
-    "/assets/testimonal/shopify4.png",
-    "/assets/testimonal/Google5.png"
-]
+import img1 from "/public/assets/testimonal/airbnb1.png"
+import img2 from "/public/assets/testimonal/amazon2.png"
+import img3 from "/public/assets/testimonal/Creative3.png"
+import img4 from "/public/assets/testimonal/shopify4.png"
+import img5 from "/public/assets/testimonal/Google5.png"
+const images = [img1,
+    img2,
+    img3,
+    img4,
+    img5]
 const Review = () => {
     return (
         <div className="bg-whiteC text-blackC">
@@ -71,17 +73,20 @@ const Review = () => {
                 </div>
 
             </div>
-            <h3 className="text-base font-bold text-center">Trusted by Greatest Companies</h3>
-            <div className="flex flex-wrap basis-16">
-                    {
-                        images.map((img,index)=>(
-                            <div className="w-24 h-full" key={index}>
-                                <img className="w-full" src={img} alt="" />
-                            </div>
+            <h3 className="text-base font-bold text-center py-5">Trusted by Greatest Companies</h3>
+            <div className="flex flex-wrap pb-5 justify-center items-center gap-x-7 gap-y-3">
+                {
+                    images.map((img, index) => (
+                        <div className=" basis-20 shrink" key={index}>
+                            <img className="w-full" src={img} alt="" />
+                        </div>
 
-                        ))
-                    }
+                    ))
+                }
+
+
             </div>
+      
         </div>
     );
 };
