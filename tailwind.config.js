@@ -6,7 +6,11 @@ export default {
   ],
   theme: {
     colors:{
-      blackC:"#0A0119"
+      blackC:"#0A0119",
+      blueC:"#3378FF",
+      whiteBtn:"#F5F3FA",
+      whiteC:"#fff",
+      orangeC:"#F17415"
     },
     extend: {},
   },
