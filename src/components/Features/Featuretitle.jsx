@@ -1,6 +1,6 @@
 const Featuretitle = () => {
     return (
-        <div className="w-full block md:flex justify-between mx-0 md:px-5 pt-2 md:pt-10">
+        <div className="w-full block md:flex justify-between mx-0  pt-2 md:pt-10">
             <div className="text-2xl lg:text-6xl font-bold w-4/6  px-0  text-center md:text-start mx-auto">
 
                 <h1 className="w-full md:w-10/12">Some features of spohire</h1>
