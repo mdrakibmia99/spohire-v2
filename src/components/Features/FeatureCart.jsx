@@ -15,7 +15,7 @@ const FeatureCart = () => {
                  <div className={`${cart.className.bgImg} bg-cover px-4 bg-no-repeat flex`} key={index}>
                     <div className='w-7/12 py-4'>
                        <h2 className='text-lg lg:text-3xl  font-bold mb-4'>{cart.title}</h2>
-                       <p className='text-xs lg:text-xl'>{cart.description}</p>
+                       <p className='text-xs lg:text-lg'>{cart.description}</p>
                     </div>
                     <div className='w-5/12 '>
                     <img className='w-full h-full' src={cart.img} alt="" />
