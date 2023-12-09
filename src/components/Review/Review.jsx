@@ -21,7 +21,7 @@ const Review = () => {
               
                 <div className="bg-whiteC text-blackC border-[15px] border-orangeC p-4">
                     <div className="flex gap-2 items-center">
-                        <img src="/public/assets/review/profile.svg" alt="" />
+                        <img src="/assets/review/profile.svg" alt="" />
                         <div>
                             <p className="text-base lg:text-xl font-bold">Jow Ella</p>
                             <p className="text-xs lg:text-base opacity-75">User Interface Design</p>
@@ -29,7 +29,7 @@ const Review = () => {
                     </div>
                     <p className="mt-3 text-base lg:text-xl">“In urna, non nisl tincidunt gravida elementum turpis. Risus, ac ultrices tincie quam arcu odio volutpat.”</p>
                     <div className="flex items-center gap-2 text-sm my-4">
-                        <img className="p-1 bg-whiteC rounded-full" src="/public/assets/review/google.png" alt="" />
+                        <img className="p-1 bg-whiteC rounded-full" src="/assets/review/google.png" alt="" />
                         <span>A5.00</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="44" height="9" viewBox="0 0 44 9" fill="none">
                             <path d="M4.05652 0.77832L4.92418 3.35938L7.75103 3.35345L5.46043 4.94271L6.33985 7.52011L4.05652 5.92126L1.77318 7.52011L2.6526 4.94271L0.362003 3.35345L3.18885 3.35938L4.05652 0.77832Z" fill="#43BA80" />
@@ -43,7 +43,7 @@ const Review = () => {
                 </div>
                 <div className="bg-whiteC text-blackC border-[15px] border-blueC p-4">
                     <div className="flex gap-2 items-center">
-                        <img src="/public/assets/review/profile.svg" alt="" />
+                        <img src="/assets/review/profile.svg" alt="" />
                         <div>
                             <p className="text-base lg:text-xl font-bold">Jow Ella</p>
                             <p className="text-xs lg:text-base opacity-75">User Interface Design</p>
@@ -51,7 +51,7 @@ const Review = () => {
                     </div>
                     <p className="mt-3 text-base lg:text-xl">“In urna, non nisl tincidunt gravida elementum turpis. Risus, ac ultrices tincie quam arcu odio volutpat.”</p>
                     <div className="flex items-center gap-2 text-sm my-4">
-                        <img className="p-1 bg-whiteC rounded-full" src="/public/assets/review/google.png" alt="" />
+                        <img className="p-1 bg-whiteC rounded-full" src="/assets/review/google.png" alt="" />
                         <span>A5.00</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="44" height="9" viewBox="0 0 44 9" fill="none">
                             <path d="M4.05652 0.77832L4.92418 3.35938L7.75103 3.35345L5.46043 4.94271L6.33985 7.52011L4.05652 5.92126L1.77318 7.52011L2.6526 4.94271L0.362003 3.35345L3.18885 3.35938L4.05652 0.77832Z" fill="#43BA80" />

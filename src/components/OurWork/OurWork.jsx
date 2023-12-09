@@ -17,8 +17,8 @@ const OurWork = () => {
                             <h1 className="text-base mb-2">Local News, Teams & Players</h1>
                             <button className="text-xs bg-whiteC shadow-md py-1 px-2 text-blueC font-bold rounded-lg">Allow Location</button>
                         </div>
-                        <img className="w-1/4 h-2/3" src="/public/assets/work/before-circle.png" alt="" />
-                        <img className="w-1/4 h-2/3" src="/public/assets/work/circle-second.png" alt="" />
+                        <img className="w-1/4 h-2/3" src="/assets/work/before-circle.png" alt="" />
+                        <img className="w-1/4 h-2/3" src="/assets/work/circle-second.png" alt="" />
                     </div>
 
                     <div className="bg-whiteC rounded-md text-blackC flex  p-4 gap-2">
@@ -33,7 +33,7 @@ const OurWork = () => {
                         </div>
                         <div className="w-3/12 flex justify-center items-center">
 
-                            <img className="h-2/3" src="/public/assets/work/second-curve.png" alt="" />
+                            <img className="h-2/3" src="/assets/work/second-curve.png" alt="" />
                         </div>
 
                         <div className="flex flex-row w-4/12 gap-2">
