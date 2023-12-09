@@ -22,7 +22,7 @@ const HeroSection = () => {
             </div>
 
             <div className="mt-8">
-                <img className="relative right-8" src="/assets/images/hero-banner-image.png" alt="" />
+                <img  className="relative right-8 w-full h-full" src="/assets/images/hero-banner-image.png" alt="" />
             </div>
         </div>
     );
