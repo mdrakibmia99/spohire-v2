@@ -9,13 +9,13 @@ const carts=[
 ]
 const FeatureCart = () => {
     return (
-        <div className='grid grid-col-1 gap-3 mt-6'>
+        <div className='grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-6'>
             {
                 carts.map((cart,index)=>(
                  <div className={`${cart.className.bgImg} bg-cover px-4 bg-no-repeat flex`} key={index}>
                     <div className='w-7/12 py-4'>
-                       <h2 className='text-lg font-bold mb-4'>{cart.title}</h2>
-                       <p className='text-xs'>{cart.description}</p>
+                       <h2 className='text-lg lg:text-3xl  font-bold mb-4'>{cart.title}</h2>
+                       <p className='text-xs lg:text-xl'>{cart.description}</p>
                     </div>
                     <div className='w-5/12 '>
                     <img className='w-full h-full' src={cart.img} alt="" />

@@ -4,7 +4,7 @@ import Featuretitle from "./Featuretitle";
 
 const Features = () => {
     return (
-        <div className="w-full">
+        <div className="w-full lg:min-h-screen">
             <FeatureOption/>
             <Featuretitle/>
             <FeatureCart/>

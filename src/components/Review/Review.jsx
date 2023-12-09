@@ -10,23 +10,24 @@ const images = [img1,
     img5]
 const Review = () => {
     return (
-        <div className="bg-whiteC text-blackC">
+        <div className="bg-whiteC text-blackC lg:min-h-screen w-full grid place-content-center">
             <div>
-                <h2 className="text-2xl text-center font-bold pt-8">What people say</h2>
-                <p className="text-xs opacity-75 w-2/3 mx-auto text-center pb-6 pt-2">Lorem ipsum dolor sit amet considei suhcsd sla;askls sajsduh dsjdsuh</p>
+                <h2 className="text-2xl lg:text-6xl text-center font-bold pt-8 md:pt-12">What people say</h2>
+                <p className="text-xs lg:text-2xl opacity-75 w-2/3 mx-auto text-center pb-6 pt-2 md:pt-7  lg:pb-16">Lorem ipsum dolor sit amet considei suhcsd sla;askls sajsduh dsjdsuh</p>
             </div>
 
 
-            <div className="p-4 grid grid-cols-1 gap-3 relative">
+            <div className="p-4 grid grid-cols-1 md:grid-cols-2 lg:w-[900px] w-full mx-auto gap-3 relative">
+              
                 <div className="bg-whiteC text-blackC border-[15px] border-orangeC p-4">
                     <div className="flex gap-2 items-center">
                         <img src="/public/assets/review/profile.svg" alt="" />
                         <div>
-                            <p className="text-base font-bold">Jow Ella</p>
-                            <p className="text-xs opacity-75">User Interface Design</p>
+                            <p className="text-base lg:text-xl font-bold">Jow Ella</p>
+                            <p className="text-xs lg:text-base opacity-75">User Interface Design</p>
                         </div>
                     </div>
-                    <p className="mt-3">“In urna, non nisl tincidunt gravida elementum turpis. Risus, ac ultrices tincie quam arcu odio volutpat.”</p>
+                    <p className="mt-3 text-base lg:text-xl">“In urna, non nisl tincidunt gravida elementum turpis. Risus, ac ultrices tincie quam arcu odio volutpat.”</p>
                     <div className="flex items-center gap-2 text-sm my-4">
                         <img className="p-1 bg-whiteC rounded-full" src="/public/assets/review/google.png" alt="" />
                         <span>A5.00</span>
@@ -44,11 +45,11 @@ const Review = () => {
                     <div className="flex gap-2 items-center">
                         <img src="/public/assets/review/profile.svg" alt="" />
                         <div>
-                            <p className="text-base font-bold">Jow Ella</p>
-                            <p className="text-xs opacity-75">User Interface Design</p>
+                            <p className="text-base lg:text-xl font-bold">Jow Ella</p>
+                            <p className="text-xs lg:text-base opacity-75">User Interface Design</p>
                         </div>
                     </div>
-                    <p className="mt-3">“In urna, non nisl tincidunt gravida elementum turpis. Risus, ac ultrices tincie quam arcu odio volutpat.”</p>
+                    <p className="mt-3 text-base lg:text-xl">“In urna, non nisl tincidunt gravida elementum turpis. Risus, ac ultrices tincie quam arcu odio volutpat.”</p>
                     <div className="flex items-center gap-2 text-sm my-4">
                         <img className="p-1 bg-whiteC rounded-full" src="/public/assets/review/google.png" alt="" />
                         <span>A5.00</span>
@@ -63,7 +64,7 @@ const Review = () => {
                     </div>
                 </div>
                 <div className="absolute w-full h-full grid justify-center items-center">
-                    <div className="inline-block">
+                    <div className="inline-block md:-rotate-90 rotate-0">
                         <div className="bg-whiteBtn p-4 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="20" viewBox="0 0 17 20" fill="none">
                                 <path d="M16 10.6364V10.6364C12.6476 10.9655 9.83731 13.3107 8.9135 16.5501L8.5 18M8.5 18L8.22452 16.873C7.39187 13.4667 4.49135 10.9628 1 10.6364V10.6364M8.5 18L8.5 -3.27835e-07" stroke="#2D2D2D" stroke-width="0.853672" />
@@ -73,11 +74,11 @@ const Review = () => {
                 </div>
 
             </div>
-            <h3 className="text-base font-bold text-center py-5">Trusted by Greatest Companies</h3>
-            <div className="flex flex-wrap pb-5 justify-center items-center gap-x-7 gap-y-3">
+            <h3 className="text-base lg:text-4xl font-bold text-center py-5">Trusted by Greatest Companies</h3>
+            <div className="flex flex-wrap pb-5 md:pb-10 justify-center items-center gap-x-7 gap-y-3">
                 {
                     images.map((img, index) => (
-                        <div className=" basis-20 shrink" key={index}>
+                        <div className=" basis-20 lg:basis-36 shrink" key={index}>
                             <img className="w-full" src={img} alt="" />
                         </div>
 

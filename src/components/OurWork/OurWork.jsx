@@ -1,18 +1,18 @@
 
 const OurWork = () => {
     return (
-        <div className="w-full gap-8">
-            <h1 className="text-2xl text-center mt-8">How it works</h1>
-            <div className="bg-[#1e1034] w-10/12 my-8 mx-auto rounded-full">
-                <ul className="flex flex-row gap-3 justify-between text-xs items-center px-3">
+        <div className="w-full gap-8 lg:min-h-screen">
+            <h1 className="text-2xl lg:text-7xl text-center mt-8">How it works</h1>
+            <div className="bg-[#1e1034] w-10/12 md:w-[300px] lg:w-[700px] my-8 mx-auto rounded-full">
+                <ul className="flex flex-row gap-3 justify-between text-xs lg:text-2xl items-center px-3">
                     <li className="bg-blueC px-3 py-2 rounded-md">Player</li>
                     <li>Coach</li>
                     <li>Manager / Agent</li>
                 </ul>
             </div>
-            <div className="grid grid-cols-1">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:grid-cols-2 w-full lg:w-[900px] mx-auto mb-12">
                 <div className="flex flex-col gap-4 ">
-                    <div className="flex gap-2 p-4 justify-center items-center bg-whiteC text-blackC font-bold">
+                    <div className="flex gap-2 rounded-md p-4 justify-center items-center bg-whiteC text-blackC font-bold">
                         <div className="w-2/4">
                             <h1 className="text-base mb-2">Local News, Teams & Players</h1>
                             <button className="text-xs bg-whiteC shadow-md py-1 px-2 text-blueC font-bold rounded-lg">Allow Location</button>
@@ -21,8 +21,8 @@ const OurWork = () => {
                         <img className="w-1/4 h-2/3" src="/public/assets/work/circle-second.png" alt="" />
                     </div>
 
-                    <div className="bg-whiteC text-blackC flex  p-4 gap-2">
-                        <div className="w-8/12">
+                    <div className="bg-whiteC rounded-md text-blackC flex  p-4 gap-2">
+                        <div className="w-8/12 overflow-hidden">
                             <h3 className="text-xs font-bold text-blackC">Robert Lewandowski</h3>
                             <div className="grid grid-cols-2 gap-2  text-[8px] mt-3">
                                 <button className="shadow-whiteC px-2 py-1 bg-whiteBtn shadow-sm rounded-xl ">Place of birth</button>
@@ -37,7 +37,7 @@ const OurWork = () => {
                         </div>
 
                         <div className="flex flex-row w-4/12 gap-2">
-                            <div className="text-xs flex flex-col gap-2 items-center">
+                            <div className="text-[8px] lg:text-base flex flex-col gap-2 items-center">
                                 <button className="bg-whiteBtn  px-2">Age</button>
                                 <button className="bg-whiteBtn  px-2">Height:</button>
                                 <button className="bg-whiteBtn  px-2">Weight:</button>
@@ -48,7 +48,7 @@ const OurWork = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-blueC p-4 flex">
+                    <div className="bg-blueC p-4 rounded-md flex">
                         <div className="w-2/3">
                             <div className="flex gap-2 items-center mb-2">
                                 <p className="p-2 text-md  bg-whiteC inline-block text-blackC font-bold rounded-full ">03</p>
@@ -79,7 +79,7 @@ const OurWork = () => {
                     </div>
                 </div>
                 {/* form  */}
-                <div className="bg-blueC flex flex-col p-4 mt-5">
+                <div className="bg-blueC flex rounded-md flex-col p-4 mt-5 md:mt-0 lg:mt-0">
                     <div className="w-1/2 ">
                         <h3 className="text-base ">Sign Up</h3>
                         <p className="text-xs opacity-75">Create an account ad add your profile for those loking.</p>
@@ -112,7 +112,7 @@ const OurWork = () => {
 
                         <div className="text-blackC">
                             <h4 className="text-base font-bold">Kind Of Sports</h4>
-                            <div className="flex gap-2 text-xs my-2">
+                            <div className="flex flex-wrap gap-2 text-xs my-2">
                                 <span className="flex items-center" ><input type="radio"  /> Football </span>
                                 <span className="flex items-center"><input type="radio" /> Baskeball </span>
                                 <span className="flex items-center"><input type="radio" /> Handball </span>

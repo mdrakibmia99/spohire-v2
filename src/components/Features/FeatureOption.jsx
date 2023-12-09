@@ -9,7 +9,7 @@ const featureOption = [
 ]
 const FeatureOption = () => {
     return (
-        <div className="grid grid-cols-3 gap-4 my-8">
+        <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6  gap-4 my-8 px-2 md:px-5 lg;px-5">
             {
 
                 featureOption.map((item,index)=>(

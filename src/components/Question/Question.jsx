@@ -16,24 +16,24 @@ const Question = () => {
     return (
         <div className="bg-whiteC text-blackC">
             <div>
-                <h2 className="py-12 text-2xl font-bold text-center ">Freequently asked question</h2>
+                <h2 className="py-12 text-2x lg:text-6xl font-bold text-center ">Freequently asked question</h2>
             </div>
 
-            <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
+            <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-screen">
 
                 {
                     questions.map((question, index) => (
-                        <div key={index} className="grid divide-y divide-neutral-200 max-w-xl border border-whiteBtn rounded px-2 mx-auto mt-8">
+                        <div key={index} className="grid divide-y divide-neutral-200 max-w-xl lg:max-w-4xl border border-whiteBtn rounded px-2 mx-auto mt-8">
                             <div className="py-5">
                                 <details className="group">
                                     <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                                        <span className="text-xs font-bold"> {question.title}</span>
+                                        <span className="text-xs lg:text-2xl font-bold"> {question.title}</span>
                                         <span className="transition group-open:rotate-180">
                                             <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                             </svg>
                                         </span>
                                     </summary>
-                                    <p className="text-neutral-600 opacity-80 text-[11px] mt-3 group-open:animate-fadeIn">
+                                    <p className="text-neutral-600 opacity-80 text-[11px] md:text-lg lg:text-xl mt-3 group-open:animate-fadeIn">
                                        {question.ans}
                                     </p>
                                 </details>
