@@ -16,7 +16,7 @@ const Navbar = () => {
             </div>
             <div>
 
-                <ul className="lg:flex flex-row text-white gap-6  hidden md:flex">
+                <ul className="lg:flex flex-row text-white gap-6 text-base lg:text-xl  hidden md:flex">
                     <li>Transfer Market</li>
                     <li>Job Offers</li>
                     <li>Announcements</li>
@@ -38,8 +38,8 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="flex flex-row justify-center items-center gap-3">
-                <p className="text-xs">Log In</p>
-                <p className="bg-[url('/assets/images/signup-border.png')] bg-contain bg-no-repeat text-xs w-24 h-8 grid place-items-center">SIGN UP </p>
+                <p className="text-base lg:text-xl">Log In</p>
+                <p className="bg-[url('/assets/images/signup-border.png')] bg-contain bg-no-repeat text-xs w-24 h-8 lg:w-28 lg:h-10 grid place-items-center lg:text-xl">SIGN UP </p>
             </div>
         </div>
     );
